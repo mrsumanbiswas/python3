@@ -1,4 +1,4 @@
-# wordgame
+# word-game
 This game is for learning and practicing English word (mainly for basics).
 
 
