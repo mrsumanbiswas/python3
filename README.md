@@ -1,5 +1,7 @@
-# word-game
-This game is for learning and practicing English word (mainly for basics).
+# Python3
 
 
-The entire game will be written in Phython3
+## Here will be may projects based on Pyhon3
+
+
+### Coding is fun
