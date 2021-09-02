@@ -1,5 +1,7 @@
-This Game is for kids.....
+#This Game is for kids.....
 
-Those mp3's are for make the code faster..
+#This is totaly based on Python3
+
+##Those mp3's are for make the code faster..
 
 
