@@ -14,6 +14,7 @@ import gtts
 import wikipedia
 import requests
 import re
+import googlesearch
 from bs4 import *
 
 #################### VARIABLE ######################
@@ -95,6 +96,12 @@ class Analys():
                 SendVoic(massage,text)
             except Exception:
                 bot.reply_to(massage,"Sorry! didn't mach anything ...\nTry again........")
+        elif "search:" in quary:
+            quary = quary.replace('search:','')
+            result = googlesearch.search(quary)
+            bot.reply_to(massage,"Showing result(s) ...")
+            for i in result:
+                SendMsg(massage,i)
     def Command(massage):
         pass
 class General():
@@ -162,3 +169,5 @@ def DoTask(massage):
 def DoTask(massage):
     General(massage)
 bot.polling()
+
+
